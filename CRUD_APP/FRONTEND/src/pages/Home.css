@@ -1,0 +1,67 @@
+ .styled-table{
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	max-width: 1000px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .styled-table thead tr {
+	background-color:burlywood;
+	color:rgb(63, 69, 5);
+	text-align: left;
+ }
+ .styled-table th ,
+ .styled-table td {
+	padding: 12px 15px;
+ }
+ .styled-table tbody tr {
+	border-bottom: 1px solid white;
+ }
+
+ .styled-table tbody tr:nth-of-type(even) {
+	border-bottom: 1px solid rgb(85, 82, 77);
+ }
+ .styled-table tbody tr:last-of-type {
+	border-bottom: 2px solid burlywood;
+ }
+ .btn{
+	border: none;
+	color: black;
+	padding: 5px 8px;
+	text-align: center;
+	text-decoration: dotted;
+	display: inline-block;
+	font-size: 16px;
+	margin:  4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+.btn1 {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50; /* Green */
+  }
+  .btn2 {
+	background-color: white;
+	color: black;
+	border: 2px solid skyblue ; /* Green */
+  }
+
+  .btn3 {
+	background-color: white;
+	color: black;
+	border: 2px solid red; /* Green */
+  }
+  .btn1:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+  }
+  .btn2:hover {
+	background-color: skyblue; /* Green */
+	color: white;
+  }
+  .btn3:hover {
+	background-color: red; /* Green */
+	color: white;
+  }
